@@ -32,6 +32,8 @@ $(DMV_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(DMV_SYMLINKS)
 
+LOCAL_STATIC_JAVA_LIBRARIES := \ org.lineageos.platform.internal
+
 # ISDB
 ISDB_IMAGES := \
 	isdbtmm.b00 isdbtmm.b01 isdbtmm.b02 isdbtmm.b03 isdbtmm.mdt
